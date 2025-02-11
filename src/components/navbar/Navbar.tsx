@@ -14,8 +14,8 @@ const Navbar = () => {
   const levelOneCategories = data.filter((item) => item.level === 1);
 
   return (
-    <div className="h-16 lg:h-[100px] w-full flex justify-between items-center gap-3 sticky top-0 left-0 lg:-top-9 px-2 md:px-5 lg:px-10 bg-tertiary">
-      <div className="h-12 md:min-h-16 md:h-full flex items-center justify-center">
+    <div className="h-16 lg:h-[100px] w-full flex justify-between items-center gap-3 sticky top-0 left-0 lg:-top-9 px-2 sm:px-5 md:px-10 bg-tertiary">
+      <div className="h-12 sm:h-14 md:min-h-16 md:h-full flex items-center justify-center">
         <img
           src="./images/logo/B_Q.png"
           alt="Logo"
@@ -69,7 +69,7 @@ const Navbar = () => {
           <UserMenuIcons />
         </div>
       </div>
-      <div className="px-1 md:px-5 lg:hidden flex items-center gap-3">
+      <div className="px-1 sm:px-3 md:px-5 lg:hidden flex items-center gap-3">
         <UserMenuIcons />
         <MoonIcon className="[&>path]:stroke-tertiary-inverted w-5 h-5 md:w-6 md:h-6" />
       </div>
